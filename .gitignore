@@ -16,3 +16,89 @@ Thumbs.db
 *.log
 *.tmp
 *.swp
+
+# =========================
+# Android Studio / IntelliJ
+# =========================
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Local Android Studio settings
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
+
+# =========================
+# Gradle
+# =========================
+
+.gradle/
+build/
+**/build/
+
+# =========================
+# Android build outputs
+# =========================
+
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# =========================
+# Local configuration
+# =========================
+
+local.properties
+
+# =========================
+# Kotlin
+# =========================
+
+.kotlin/
+
+# =========================
+# Generated files
+# =========================
+
+captures/
+.externalNativeBuild/
+.cxx/
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+
+# =========================
+# Firebase / Google secrets
+# =========================
+
+google-services.json
+
+# =========================
+# Environment / secrets
+# =========================
+
+.env
+.env.*
+!.env.example
