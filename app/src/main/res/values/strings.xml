@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Step Tracker</string>
+
+    <string name="steps_label">steps</string>
+    <string name="steps_count_description">%1$s steps today</string>
+    <string name="progress_text">%1$d%% · %2$s of %3$s steps</string>
+    <string name="progress_description">Daily goal progress: %1$d%%</string>
+    <string name="goal_reached">Goal reached</string>
+    <string name="edit_goal">Edit goal</string>
+    <string name="history_action">History</string>
+
+    <string name="permission_rationale_title">Allow step counting</string>
+    <string name="permission_rationale">Step Tracker reads the step counter on your phone to show how many steps you take. This needs the Physical activity permission. Your data never leaves this device.</string>
+    <string name="permission_continue">Continue</string>
+    <string name="permission_denied_title">Step counting is off</string>
+    <string name="permission_denied">Without the Physical activity permission the app cannot count your steps.</string>
+    <string name="permission_grant">Grant permission</string>
+    <string name="permission_open_settings">Open settings</string>
+
+    <string name="unsupported_title">Not supported</string>
+    <string name="unsupported_message">This device has no step counter sensor, so Step Tracker cannot count steps here.</string>
+    <string name="loading">Loading…</string>
+
+    <string name="goal_dialog_title">Daily goal</string>
+    <string name="goal_dialog_label">Steps per day</string>
+    <string name="goal_error">Enter a whole number greater than 0.</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="history_title">History</string>
+    <string name="back">Back</string>
+    <string name="history_empty">No history yet.</string>
+    <string name="goal_met">Goal met</string>
+    <string name="goal_not_met">Goal not met</string>
+    <string name="history_row_description">%1$s: %2$s steps. %3$s</string>
+</resources>
